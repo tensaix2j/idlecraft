@@ -1,0 +1,96 @@
+		
+
+			.ictable {
+				display:table;
+				text-align: center;
+				font-size: 10pt;
+				font-family: helvetica;
+			
+				-moz-user-select: none;
+			   -khtml-user-select: none;
+			   -webkit-user-select: none;
+				-ms-user-select: none;
+			   user-select: none;
+
+			}
+			.icthead {
+				display:table-row;
+			}
+			.ictrow {
+				display:table-row;
+			}
+			.ictcol {
+				display:table-cell;
+				border:solid 1px;
+				padding:10px;
+				width:300px;
+				height:60px;
+			}
+
+			
+
+			.ictcol1 {
+				display:table-cell;
+				border:solid 1px;
+				width:100px;
+				height:40px;
+				padding:4px;
+			}
+
+			.ictcol2 {
+				display:table-cell;
+				border:solid 1px;
+				width:200px;
+				height:40px;
+				padding:2px;
+				vertical-align: middle;
+				text-align: center;
+				cursor: pointer;
+			}
+			.ictcol3 {
+				display:table-cell;
+				border:solid 1px;
+				width:100px;
+				height:20px;
+				padding:4px;
+			}	
+			.ictcol4 {
+				display:table-cell;
+				border:solid 1px;
+				width:200px;
+				height:20px;
+				padding:4px;
+				cursor: pointer;
+			}
+
+			.ictcol5 {
+				display:table-cell;
+				border:solid 1px;
+				width:100px;
+				height:20px;
+				padding:4px;
+			}	
+			.ictcol6 {
+				display:table-cell;
+				border:solid 1px;
+				width:200px;
+				height:20px;
+				padding:4px;
+				cursor: pointer;
+			}
+
+
+
+			.icactivate { 
+				cursor: pointer;
+			}
+
+			.durationbar {
+				background-color: orange;
+				width: 208px;
+				height:10px;
+				color:white;
+				border-radius:2px;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+			}
