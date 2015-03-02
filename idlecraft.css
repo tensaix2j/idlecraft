@@ -12,6 +12,12 @@
 				-ms-user-select: none;
 			   user-select: none;
 
+			   width: 608px;
+
+			}
+
+			.icsubtable { 
+				display:table;
 			}
 			.icthead {
 				display:table-row;
@@ -82,12 +88,13 @@
 
 
 			.icactivate { 
+				width: 304px;
 				cursor: pointer;
 			}
 
 			.durationbar {
 				background-color: orange;
-				width: 208px;
+				width: 200px;
 				height:10px;
 				color:white;
 				border-radius:2px;
